@@ -1,0 +1,45 @@
+Arguments: 
+  /Users/dyyao/.nvm/versions/node/v8.9.1/bin/node /Users/dyyao/.nvm/versions/node/v8.9.1/bin/yarn
+
+PATH: 
+  /Users/dyyao/.nvm/versions/node/v8.9.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin :/Applications/VMware Fusion.app/Contents/Public:/sbin:/Users/dyyao/Library/Android/sdk/tools:/Users/dyyao/Library/Android/sdk/tools/bin:/Users/dyyao/Library/Android/sdk/platform-tools:/Users/dyyao/Library/Android/sdk/emulator
+
+Yarn version: 
+  1.10.1
+
+Node version: 
+  8.9.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.npm.taobao.org/cookie-parser: ETIMEDOUT
+      at Timeout._onTimeout (/Users/dyyao/.nvm/versions/node/v8.9.1/lib/node_modules/yarn/lib/cli.js:120826:19)
+      at ontimeout (timers.js:475:11)
+      at tryOnTimeout (timers.js:310:5)
+      at Timer.listOnTimeout (timers.js:270:5)
+
+npm manifest: 
+  {
+    "name": "back-end",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+      "start": "node ./bin/www"
+    },
+    "dependencies": {
+      "cookie-parser": "~1.4.3",
+      "debug": "~2.6.9",
+      "ejs": "~2.5.7",
+      "express": "~4.16.0",
+      "http-errors": "~1.6.2",
+      "morgan": "~1.9.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
